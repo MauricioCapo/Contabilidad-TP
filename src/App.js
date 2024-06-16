@@ -21,7 +21,6 @@ function App() {
           <li><a href="#" >FACTURA C</a></li>
       </ul>
     </nav>
-    
     </div>
     <div className='A'>
     </div>
@@ -29,6 +28,9 @@ function App() {
     <header>
       <div className="invoice-header">
         <h1>FACTURA</h1>
+        <div className='Letra'>
+          <h1>A</h1>
+        </div>
         <div className="header-info">
           <div>
             <span>FECHA:</span>
@@ -55,6 +57,7 @@ function App() {
 
     <section className="invoice-body">
       <div className="client-info">
+        <div className='border2'>
         <div>
           <label>Señor(es):</label>
           <input type="text" />
@@ -67,6 +70,7 @@ function App() {
           <label>Loc.:</label>
           <input type="text" />
         </div>
+        </div>
       </div>
 
       <div className="sale-conditions">
@@ -78,7 +82,14 @@ function App() {
           </select>
         </div>
         <div>
-          <label>CUIT:</label>
+          <label>CUIT: </label>
+          <input type="text" />
+        </div>
+        <div className='padding-arriba'>
+          <label>IVA: </label> <p>Responsable Inscripto</p>
+        </div>
+        <div className='padding-arriba'> 
+          <label>Remito N°: </label>
           <input type="text" />
         </div>
       </div>
