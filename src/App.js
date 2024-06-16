@@ -16,9 +16,9 @@ function App() {
     <div className='Links1'>
     <nav className='links'>
       <ul>
-          <li><a href="#" >FACTURA A</a></li>
-          <li><a href="#" >FACTURA B</a></li>
-          <li><a href="#" >FACTURA C</a></li>
+          <li><a href="#" >FACTURA "A"</a></li>
+          <li><a href="#" >FACTURA "B"</a></li>
+          <li><a href="#" >FACTURA "C"</a></li>
       </ul>
     </nav>
     </div>
@@ -60,15 +60,15 @@ function App() {
         <div className='border2'>
         <div>
           <label>Señor(es):</label>
-          <input type="text" />
+          <input type="text" className='input1'/>
         </div>
         <div>
           <label>Dirección:</label>
-          <input type="text" />
+          <input type="text"/>
         </div>
         <div>
           <label>Loc.:</label>
-          <input type="text" />
+          <input type="text"/>
         </div>
         </div>
       </div>
