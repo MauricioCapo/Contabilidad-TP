@@ -122,6 +122,9 @@ function App() {
       </div>
     </footer>
   </div>
+  <footer>
+    <div className='espacio-fo'> </div>
+  </footer>
   </>
 );
 }
