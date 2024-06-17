@@ -56,10 +56,30 @@ font-size: 15px;
 .client-info div, .sale-conditions div {
   display: flex;
 }
+.invoice-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
 
 .invoice-item input {
-  width: 22%;
   padding: 5px;
+}
+
+.cantidad-input {
+  width: 10%;
+}
+
+.descripcion-input {
+  width: 50%;
+}
+
+.precio-unitario-input {
+  width: 20%;
+}
+
+.importe-input {
+  width: 20%;
 }
 .invoice-details {
   border-top: 1px solid #000;
@@ -71,16 +91,6 @@ font-size: 15px;
   display: flex;
   justify-content: space-between;
 }
-
-.invoice-item {
-  display: flex;
-  justify-content: space-between;
-}
-
-.invoice-item input {
-  width: 20%;
-}
-
 .invoice-footer {
   
   margin-top: 20px;
@@ -114,11 +124,8 @@ font-size: 15px;
 }
 .Letra{
   border: 2px solid #000;
+  height: 50%;
   border-radius: 5px;
-  font-size: 30px;
-  position: absolute;
-  right: 560px;
- 
 }
 .input1{
   width: 260px;

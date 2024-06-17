@@ -4,10 +4,10 @@ import './App.css';
 function App() {
   const invoiceItems = Array.from({ length: 12 }, (_, index) => (
     <div className="invoice-item" key={index}>
-      <input type="number" />
-      <input type="text" />
-      <input type="number"  />
-      <input type="number"  />
+      <input type="number" className="cantidad-input" />
+      <input type="text" className="descripcion-input"/>
+      <input type="number" className="precio-unitario-input" />
+      <input type="number" className="importe-input" />
     </div>
   ));
 
