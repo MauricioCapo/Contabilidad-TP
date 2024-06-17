@@ -27,6 +27,7 @@ function App() {
 
   return (
     <>
+    
       <div className='Links1'>
         <nav className='links'>
           <ul>
@@ -37,6 +38,7 @@ function App() {
         </nav>
       </div>
       {showFacturaA && (
+        <div className='espacioH'>
         <div className="invoice-container">
           <header>
             <div className="invoice-header">
@@ -133,6 +135,7 @@ function App() {
               </div>
             </div>
           </footer>
+        </div>
         </div>
       )}
       {showFacturaB && (

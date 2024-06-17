@@ -12,6 +12,7 @@ function App2() {
       ));
     
       return (
+        <div className='espacioH'>
         <div className="invoice-container1">
           <header className='header1'>
             <div className="header-left1">
@@ -116,6 +117,7 @@ function App2() {
               </div>
             </div>
           </footer>
+        </div>
         </div>
       );
     }

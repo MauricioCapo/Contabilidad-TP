@@ -16,6 +16,9 @@
 .header-info div {
   margin-bottom: 10px;
 }
+.espacioH{
+  padding-top: 10px;
+}
 
 .client-info, .sale-conditions {
   display: flex;
